@@ -1,0 +1,1202 @@
+[
+  {
+    "code": "W01-S01",
+    "week": 1,
+    "number": 1,
+    "week_title": "研究问题与四类研究设计",
+    "title": "四种研究目标",
+    "task": "把同一健康问题改写成描述、关联、预测、因果问题；拆R01范围与R02概念。",
+    "deliverable": "4张问题卡＋术语表",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)；[R03 BMJ 2025](https://www.bmj.com/content/389/bmj-2024-081123)；[R34 New England Journal of Medicine 2015](https://www.nejm.org/doi/full/10.1056/NEJMoa1511939)"
+  },
+  {
+    "code": "W01-S02",
+    "week": 1,
+    "number": 2,
+    "week_title": "研究问题与四类研究设计",
+    "title": "观察性设计与时间结构",
+    "task": "比较横断面、病例对照、队列；用模拟人群画抽样与时间轴。",
+    "deliverable": "设计比较表＋时间轴",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)；[R03 BMJ 2025](https://www.bmj.com/content/389/bmj-2024-081123)；[R34 New England Journal of Medicine 2015](https://www.nejm.org/doi/full/10.1056/NEJMoa1511939)"
+  },
+  {
+    "code": "W01-S03",
+    "week": 1,
+    "number": 3,
+    "week_title": "研究问题与四类研究设计",
+    "title": "随机试验与分析人群",
+    "task": "读R34设计与R03相关条目；解释随机化、分配隐藏、盲法、ITT/PP及其不同问题。",
+    "deliverable": "RCT设计卡＋流程图",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)；[R03 BMJ 2025](https://www.bmj.com/content/389/bmj-2024-081123)；[R34 New England Journal of Medicine 2015](https://www.nejm.org/doi/full/10.1056/NEJMoa1511939)"
+  },
+  {
+    "code": "W01-S04",
+    "week": 1,
+    "number": 4,
+    "week_title": "研究问题与四类研究设计",
+    "title": "顶刊结构拆解与小方案",
+    "task": "比较R34与R35的研究设计；为一个不限定疾病的问题写半页protocol。",
+    "deliverable": "2篇设计卡＋初版protocol",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)；[R03 BMJ 2025](https://www.bmj.com/content/389/bmj-2024-081123)；[R34 New England Journal of Medicine 2015](https://www.nejm.org/doi/full/10.1056/NEJMoa1511939)"
+  },
+  {
+    "code": "W01-S05",
+    "week": 1,
+    "number": 5,
+    "week_title": "研究问题与四类研究设计",
+    "title": "本周拓展练习",
+    "task": "用R37与R34比较干预、复合结局、随访与适用人群。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)；[R03 BMJ 2025](https://www.bmj.com/content/389/bmj-2024-081123)；[R34 New England Journal of Medicine 2015](https://www.nejm.org/doi/full/10.1056/NEJMoa1511939)。"
+  },
+  {
+    "code": "W02-S01",
+    "week": 2,
+    "number": 1,
+    "week_title": "疾病频率、描述性流行病学与抽样",
+    "title": "人、时、地与分母",
+    "task": "读R04描述性目标；模拟不同分母，分别计算患病率、累计发病风险、发生率。",
+    "deliverable": "频率指标表",
+    "references": "[R04 American Journal of Epidemiology 2022](https://academic.oup.com/aje/article/191/12/2063/6623869)；[R05 The Lancet 2024](https://pubmed.ncbi.nlm.nih.gov/38762324/)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W02-S02",
+    "week": 2,
+    "number": 2,
+    "week_title": "疾病频率、描述性流行病学与抽样",
+    "title": "Table 1与复杂抽样",
+    "task": "用D2一个周期的少量字段练习；核对权重、分层、PSU，报告缺失。",
+    "deliverable": "加权/未加权描述表",
+    "references": "[R04 American Journal of Epidemiology 2022](https://academic.oup.com/aje/article/191/12/2063/6623869)；[R05 The Lancet 2024](https://pubmed.ncbi.nlm.nih.gov/38762324/)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W02-S03",
+    "week": 2,
+    "number": 3,
+    "week_title": "疾病频率、描述性流行病学与抽样",
+    "title": "年龄标准化与Simpson现象",
+    "task": "读R05年龄标准化相关说明；模拟两个人群的粗率和直接标准化率。",
+    "deliverable": "粗率/标化率对照图",
+    "references": "[R04 American Journal of Epidemiology 2022](https://academic.oup.com/aje/article/191/12/2063/6623869)；[R05 The Lancet 2024](https://pubmed.ncbi.nlm.nih.gov/38762324/)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W02-S04",
+    "week": 2,
+    "number": 4,
+    "week_title": "疾病频率、描述性流行病学与抽样",
+    "title": "疾病负担与解释边界",
+    "task": "精读R05一张主要图表；区分率、人数、DALY和不确定区间，避免把生态数据直接解释为个体因果。",
+    "deliverable": "一页疾病负担解读",
+    "references": "[R04 American Journal of Epidemiology 2022](https://academic.oup.com/aje/article/191/12/2063/6623869)；[R05 The Lancet 2024](https://pubmed.ncbi.nlm.nih.gov/38762324/)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W02-S05",
+    "week": 2,
+    "number": 5,
+    "week_title": "疾病频率、描述性流行病学与抽样",
+    "title": "本周拓展练习",
+    "task": "调查公开疾病负担汇总数据入口，记录下载条件；不要求重建GBD模型。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R04 American Journal of Epidemiology 2022](https://academic.oup.com/aje/article/191/12/2063/6623869)；[R05 The Lancet 2024](https://pubmed.ncbi.nlm.nih.gov/38762324/)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)。"
+  },
+  {
+    "code": "W03-S01",
+    "week": 3,
+    "number": 1,
+    "week_title": "统计推断、效应指标与精度",
+    "title": "概率与抽样分布",
+    "task": "读R06统计报告要求；模拟二项比例与重复抽样，观察估计值分布。",
+    "deliverable": "抽样分布图",
+    "references": "[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R03 BMJ 2025](https://www.bmj.com/content/389/bmj-2024-081123)；[R37 New England Journal of Medicine 2023](https://www.nejm.org/doi/full/10.1056/NEJMoa2307563)"
+  },
+  {
+    "code": "W03-S02",
+    "week": 3,
+    "number": 2,
+    "week_title": "统计推断、效应指标与精度",
+    "title": "置信区间与bootstrap",
+    "task": "比较比例和均值的区间；模拟覆盖率，解释区间与临床意义。",
+    "deliverable": "覆盖率实验＋区间图",
+    "references": "[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R03 BMJ 2025](https://www.bmj.com/content/389/bmj-2024-081123)；[R37 New England Journal of Medicine 2023](https://www.nejm.org/doi/full/10.1056/NEJMoa2307563)"
+  },
+  {
+    "code": "W03-S03",
+    "week": 3,
+    "number": 3,
+    "week_title": "统计推断、效应指标与精度",
+    "title": "OR、RR、RD及非可折叠性",
+    "task": "从2×2表计算三个指标；模拟无混杂时条件与边际OR的差别，区分调整变化与混杂。",
+    "deliverable": "效应指标比较表",
+    "references": "[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R03 BMJ 2025](https://www.bmj.com/content/389/bmj-2024-081123)；[R37 New England Journal of Medicine 2023](https://www.nejm.org/doi/full/10.1056/NEJMoa2307563)"
+  },
+  {
+    "code": "W03-S04",
+    "week": 3,
+    "number": 4,
+    "week_title": "统计推断、效应指标与精度",
+    "title": "样本量、多重性与研究计划",
+    "task": "结合R37预设结局阅读；指定一个主要问题，学习样本量/精度规划，不以每变量10事件当万能规则。",
+    "deliverable": "精度规划说明＋多重性计划",
+    "references": "[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R03 BMJ 2025](https://www.bmj.com/content/389/bmj-2024-081123)；[R37 New England Journal of Medicine 2023](https://www.nejm.org/doi/full/10.1056/NEJMoa2307563)"
+  },
+  {
+    "code": "W03-S05",
+    "week": 3,
+    "number": 5,
+    "week_title": "统计推断、效应指标与精度",
+    "title": "本周拓展练习",
+    "task": "用R25了解外部验证的样本量问题，为W17—20做准备。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R03 BMJ 2025](https://www.bmj.com/content/389/bmj-2024-081123)；[R37 New England Journal of Medicine 2023](https://www.nejm.org/doi/full/10.1056/NEJMoa2307563)。"
+  },
+  {
+    "code": "W04-S01",
+    "week": 4,
+    "number": 1,
+    "week_title": "队列、病例对照、嵌套设计与诊断研究",
+    "title": "队列入组与随访",
+    "task": "读R35方法；模拟纳排与失访，明确基线、结局与随访起点。",
+    "deliverable": "队列流程图＋变量定义",
+    "references": "[R07 BMJ 2023](https://www.bmj.com/content/383/bmj-2022-072346)；[R08 BMJ 2015](https://www.bmj.com/content/351/bmj.h5527)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)"
+  },
+  {
+    "code": "W04-S02",
+    "week": 4,
+    "number": 2,
+    "week_title": "队列、病例对照、嵌套设计与诊断研究",
+    "title": "病例对照与对照来源",
+    "task": "模拟同一基础队列的病例对照抽样；解释为何不能直接由人为病例比例估计人群风险。",
+    "deliverable": "抽样图＋OR解释",
+    "references": "[R07 BMJ 2023](https://www.bmj.com/content/383/bmj-2022-072346)；[R08 BMJ 2015](https://www.bmj.com/content/351/bmj.h5527)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)"
+  },
+  {
+    "code": "W04-S03",
+    "week": 4,
+    "number": 3,
+    "week_title": "队列、病例对照、嵌套设计与诊断研究",
+    "title": "匹配与嵌套病例对照",
+    "task": "读R07嵌套设计；模拟风险集抽样，比较条件Logistic与不匹配分析。",
+    "deliverable": "匹配结构表＋分析比较",
+    "references": "[R07 BMJ 2023](https://www.bmj.com/content/383/bmj-2022-072346)；[R08 BMJ 2015](https://www.bmj.com/content/351/bmj.h5527)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)"
+  },
+  {
+    "code": "W04-S04",
+    "week": 4,
+    "number": 4,
+    "week_title": "队列、病例对照、嵌套设计与诊断研究",
+    "title": "诊断准确性与应用人群",
+    "task": "读R08；用D4演示不同阈值与患病率下的敏感度、特异度、PPV/NPV。",
+    "deliverable": "诊断指标表＋流程图",
+    "references": "[R07 BMJ 2023](https://www.bmj.com/content/383/bmj-2022-072346)；[R08 BMJ 2015](https://www.bmj.com/content/351/bmj.h5527)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)"
+  },
+  {
+    "code": "W04-S05",
+    "week": 4,
+    "number": 5,
+    "week_title": "队列、病例对照、嵌套设计与诊断研究",
+    "title": "本周拓展练习",
+    "task": "对照R03学习集群随机、交叉设计的用途；仅作设计概览。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R07 BMJ 2023](https://www.bmj.com/content/383/bmj-2022-072346)；[R08 BMJ 2015](https://www.bmj.com/content/351/bmj.h5527)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)。"
+  },
+  {
+    "code": "W05-S01",
+    "week": 5,
+    "number": 1,
+    "week_title": "偏倚、DAG与混杂控制",
+    "title": "DAG与调整集",
+    "task": "结合R09和R20画混杂、中介、collider结构；用dagitty检查调整集。",
+    "deliverable": "3张DAG＋调整依据",
+    "references": "[R09 Epidemiology 2004](https://pubmed.ncbi.nlm.nih.gov/15308962/)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W05-S02",
+    "week": 5,
+    "number": 2,
+    "week_title": "偏倚、DAG与混杂控制",
+    "title": "collider与选择偏倚模拟",
+    "task": "模拟进入研究或就医由两个原因共同影响；比较选择前后关联。",
+    "deliverable": "偏倚模拟图",
+    "references": "[R09 Epidemiology 2004](https://pubmed.ncbi.nlm.nih.gov/15308962/)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W05-S03",
+    "week": 5,
+    "number": 3,
+    "week_title": "偏倚、DAG与混杂控制",
+    "title": "信息偏倚与逆向因果",
+    "task": "模拟暴露分类错误；读R35敏感性分析，解释排除早期事件能检查什么、不能证明什么。",
+    "deliverable": "误分类实验＋偏倚表",
+    "references": "[R09 Epidemiology 2004](https://pubmed.ncbi.nlm.nih.gov/15308962/)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W05-S04",
+    "week": 5,
+    "number": 4,
+    "week_title": "偏倚、DAG与混杂控制",
+    "title": "传统分层与标准化调整",
+    "task": "比较粗估计、分层估计与标准化结果；用DAG决定是否调整，说明设计假设。",
+    "deliverable": "调整比较表＋批评笔记",
+    "references": "[R09 Epidemiology 2004](https://pubmed.ncbi.nlm.nih.gov/15308962/)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W05-S05",
+    "week": 5,
+    "number": 5,
+    "week_title": "偏倚、DAG与混杂控制",
+    "title": "本周拓展练习",
+    "task": "用R02审查本周方案的内部与外部有效性。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R09 Epidemiology 2004](https://pubmed.ncbi.nlm.nih.gov/15308962/)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)。"
+  },
+  {
+    "code": "W06-S01",
+    "week": 6,
+    "number": 1,
+    "week_title": "回归、连续变量与剂量反应",
+    "title": "线性回归与诊断",
+    "task": "用D1连续结局练习；检查残差、极端点、函数形式，读R06效应报告。",
+    "deliverable": "诊断图＋回归表",
+    "references": "[R10 BMJ 2006](https://www.bmj.com/content/332/7549/1080.1)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)"
+  },
+  {
+    "code": "W06-S02",
+    "week": 6,
+    "number": 2,
+    "week_title": "回归、连续变量与剂量反应",
+    "title": "Logistic与Poisson回归",
+    "task": "比较二分类、计数和人时率模型；用模拟数据演示offset、过度离散、稳健方差。",
+    "deliverable": "模型适用条件表",
+    "references": "[R10 BMJ 2006](https://www.bmj.com/content/332/7549/1080.1)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)"
+  },
+  {
+    "code": "W06-S03",
+    "week": 6,
+    "number": 3,
+    "week_title": "回归、连续变量与剂量反应",
+    "title": "样条与分类损失",
+    "task": "读R10、R35剂量反应图；比较线性、分组、RCS，预设结点并显示数据分布。",
+    "deliverable": "曲线＋95%CI＋rug",
+    "references": "[R10 BMJ 2006](https://www.bmj.com/content/332/7549/1080.1)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)"
+  },
+  {
+    "code": "W06-S04",
+    "week": 6,
+    "number": 4,
+    "week_title": "回归、连续变量与剂量反应",
+    "title": "模型解释与敏感性",
+    "task": "改变函数形式而非追求显著性；解释模型系数与标准化风险，记录影响点和尾部不确定性。",
+    "deliverable": "可复现回归小报告",
+    "references": "[R10 BMJ 2006](https://www.bmj.com/content/332/7549/1080.1)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)"
+  },
+  {
+    "code": "W06-S05",
+    "week": 6,
+    "number": 5,
+    "week_title": "回归、连续变量与剂量反应",
+    "title": "本周拓展练习",
+    "task": "对照R36阅读经典风险模型中的非线性和交互；不照搬变量。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R10 BMJ 2006](https://www.bmj.com/content/332/7549/1080.1)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)。"
+  },
+  {
+    "code": "W07-S01",
+    "week": 7,
+    "number": 1,
+    "week_title": "缺失数据与测量质量",
+    "title": "缺失机制与可识别性",
+    "task": "精读R11概念部分；生成三种缺失机制，说明MAR不能仅靠数据检验确认。",
+    "deliverable": "缺失机制图",
+    "references": "[R11 BMJ 2009](https://www.bmj.com/content/338/bmj.b2393)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W07-S02",
+    "week": 7,
+    "number": 2,
+    "week_title": "缺失数据与测量质量",
+    "title": "完整案例与插补流程",
+    "task": "用mice建立与分析模型相容的插补方案；核对变量类型、结局和辅助变量。",
+    "deliverable": "插补方案＋缺失表",
+    "references": "[R11 BMJ 2009](https://www.bmj.com/content/338/bmj.b2393)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W07-S03",
+    "week": 7,
+    "number": 3,
+    "week_title": "缺失数据与测量质量",
+    "title": "多重插补合并与诊断",
+    "task": "检查链和分布，合并估计与方差；比较完整案例，并记录适用假设。",
+    "deliverable": "合并结果＋诊断图",
+    "references": "[R11 BMJ 2009](https://www.bmj.com/content/338/bmj.b2393)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W07-S04",
+    "week": 7,
+    "number": 4,
+    "week_title": "缺失数据与测量质量",
+    "title": "MNAR敏感性与误差",
+    "task": "做一个简单delta敏感性实验或误分类实验；解释哪个假设在变化。",
+    "deliverable": "敏感性图＋博客草稿",
+    "references": "[R11 BMJ 2009](https://www.bmj.com/content/338/bmj.b2393)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W07-S05",
+    "week": 7,
+    "number": 5,
+    "week_title": "缺失数据与测量质量",
+    "title": "本周拓展练习",
+    "task": "预习预测场景的插补流程，所有拟合步骤需位于训练内。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R11 BMJ 2009](https://www.bmj.com/content/338/bmj.b2393)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)。"
+  },
+  {
+    "code": "W08-S01",
+    "week": 8,
+    "number": 1,
+    "week_title": "重复测量、聚类与效应修饰",
+    "title": "重复观察与独立性",
+    "task": "读R12；用D3或模拟数据比较把所有行当独立样本与按患者建模。",
+    "deliverable": "患者轨迹图＋错误分析对照",
+    "references": "[R12 BMJ 1995](https://www.bmj.com/content/310/6977/446)；[R13 International Journal of Epidemiology 2012](https://doi.org/10.1093/ije/dyr218)；[R14 International Journal of Epidemiology 2016](https://academic.oup.com/ije/article/45/6/1904/2670330)"
+  },
+  {
+    "code": "W08-S02",
+    "week": 8,
+    "number": 2,
+    "week_title": "重复测量、聚类与效应修饰",
+    "title": "GEE与混合效应模型",
+    "task": "练习一个GEE和一个随机截距模型；解释边际/条件参数，不能直接互换系数。",
+    "deliverable": "模型比较＋解释",
+    "references": "[R12 BMJ 1995](https://www.bmj.com/content/310/6977/446)；[R13 International Journal of Epidemiology 2012](https://doi.org/10.1093/ije/dyr218)；[R14 International Journal of Epidemiology 2016](https://academic.oup.com/ije/article/45/6/1904/2670330)"
+  },
+  {
+    "code": "W08-S03",
+    "week": 8,
+    "number": 3,
+    "week_title": "重复测量、聚类与效应修饰",
+    "title": "效应修饰与交互尺度",
+    "task": "读R13；对二元暴露与分组变量报告联合类别、加法与乘法尺度，核查适用公式。",
+    "deliverable": "交互表＋联合效应图",
+    "references": "[R12 BMJ 1995](https://www.bmj.com/content/310/6977/446)；[R13 International Journal of Epidemiology 2012](https://doi.org/10.1093/ije/dyr218)；[R14 International Journal of Epidemiology 2016](https://academic.oup.com/ije/article/45/6/1904/2670330)"
+  },
+  {
+    "code": "W08-S04",
+    "week": 8,
+    "number": 4,
+    "week_title": "重复测量、聚类与效应修饰",
+    "title": "纵向小报告与中介边界",
+    "task": "整理重复测量结果；读R14，说明中介分析为何需要额外假设。",
+    "deliverable": "纵向报告＋中介DAG",
+    "references": "[R12 BMJ 1995](https://www.bmj.com/content/310/6977/446)；[R13 International Journal of Epidemiology 2012](https://doi.org/10.1093/ije/dyr218)；[R14 International Journal of Epidemiology 2016](https://academic.oup.com/ije/article/45/6/1904/2670330)"
+  },
+  {
+    "code": "W08-S05",
+    "week": 8,
+    "number": 5,
+    "week_title": "重复测量、聚类与效应修饰",
+    "title": "本周拓展练习",
+    "task": "仅用模拟数据演示简单中介，不据此声称发现机制。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R12 BMJ 1995](https://www.bmj.com/content/310/6977/446)；[R13 International Journal of Epidemiology 2012](https://doi.org/10.1093/ije/dyr218)；[R14 International Journal of Epidemiology 2016](https://academic.oup.com/ije/article/45/6/1904/2670330)。"
+  },
+  {
+    "code": "W09-S01",
+    "week": 9,
+    "number": 1,
+    "week_title": "生存分析基础与Cox",
+    "title": "时间、事件与删失",
+    "task": "核对D3编码、单位、时间零点；绘制KM与风险集人数表，读R34生存图。",
+    "deliverable": "KM＋数据字典",
+    "references": "[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R34 New England Journal of Medicine 2015](https://www.nejm.org/doi/full/10.1056/NEJMoa1511939)"
+  },
+  {
+    "code": "W09-S02",
+    "week": 9,
+    "number": 2,
+    "week_title": "生存分析基础与Cox",
+    "title": "Cox与HR解释",
+    "task": "拟合粗模型和预设调整模型；读R35对应分析，解释HR不是累计风险比。",
+    "deliverable": "Cox表＋解释段落",
+    "references": "[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R34 New England Journal of Medicine 2015](https://www.nejm.org/doi/full/10.1056/NEJMoa1511939)"
+  },
+  {
+    "code": "W09-S03",
+    "week": 9,
+    "number": 3,
+    "week_title": "生存分析基础与Cox",
+    "title": "PH检验与绝对效应",
+    "task": "做PH诊断；结合R15思考非PH情形，计算固定时间风险或RMST课堂练习。",
+    "deliverable": "诊断图＋绝对效应",
+    "references": "[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R34 New England Journal of Medicine 2015](https://www.nejm.org/doi/full/10.1056/NEJMoa1511939)"
+  },
+  {
+    "code": "W09-S04",
+    "week": 9,
+    "number": 4,
+    "week_title": "生存分析基础与Cox",
+    "title": "Cox样条与敏感性",
+    "task": "预设一个连续变量做RCS；比较函数形式、完整案例/插补处理，写生存小报告。",
+    "deliverable": "生存分析报告",
+    "references": "[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R34 New England Journal of Medicine 2015](https://www.nejm.org/doi/full/10.1056/NEJMoa1511939)"
+  },
+  {
+    "code": "W09-S05",
+    "week": 9,
+    "number": 5,
+    "week_title": "生存分析基础与Cox",
+    "title": "本周拓展练习",
+    "task": "读R34的勘误与R34最终报告，记录版本变化及其分析影响。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R34 New England Journal of Medicine 2015](https://www.nejm.org/doi/full/10.1056/NEJMoa1511939)。"
+  },
+  {
+    "code": "W10-S01",
+    "week": 10,
+    "number": 1,
+    "week_title": "竞争风险、时变变量与动态预测",
+    "title": "竞争事件与累积发生函数",
+    "task": "读R16；用pbc区分死亡、移植、删失，比较目标事件1-KM与CIF。",
+    "deliverable": "KM/CIF对照图",
+    "references": "[R16 BMJ 2022](https://www.bmj.com/content/378/bmj-2022-071349)；[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)"
+  },
+  {
+    "code": "W10-S02",
+    "week": 10,
+    "number": 2,
+    "week_title": "竞争风险、时变变量与动态预测",
+    "title": "Cause-specific Cox与Fine–Gray",
+    "task": "拟合两类模型并解释不同目标；不将SHR直接解释为风险比。",
+    "deliverable": "两类模型解释表",
+    "references": "[R16 BMJ 2022](https://www.bmj.com/content/378/bmj-2022-071349)；[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)"
+  },
+  {
+    "code": "W10-S03",
+    "week": 10,
+    "number": 3,
+    "week_title": "竞争风险、时变变量与动态预测",
+    "title": "时变协变量与不死时间",
+    "task": "生成start-stop结构；模拟把未来暴露错误算成基线暴露的偏倚。",
+    "deliverable": "时间轴＋偏倚比较",
+    "references": "[R16 BMJ 2022](https://www.bmj.com/content/378/bmj-2022-071349)；[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)"
+  },
+  {
+    "code": "W10-S04",
+    "week": 10,
+    "number": 4,
+    "week_title": "竞争风险、时变变量与动态预测",
+    "title": "Landmark与动态预测",
+    "task": "用D3定义landmark、观察窗、预测窗；排除landmark之前事件，避免使用未来测量。",
+    "deliverable": "动态预测数据方案",
+    "references": "[R16 BMJ 2022](https://www.bmj.com/content/378/bmj-2022-071349)；[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)"
+  },
+  {
+    "code": "W10-S05",
+    "week": 10,
+    "number": 5,
+    "week_title": "竞争风险、时变变量与动态预测",
+    "title": "本周拓展练习",
+    "task": "学习多状态模型的基本状态图，暂不要求复杂拟合。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R16 BMJ 2022](https://www.bmj.com/content/378/bmj-2022-071349)；[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)。"
+  },
+  {
+    "code": "W11-S01",
+    "week": 11,
+    "number": 1,
+    "week_title": "系统综述与Meta分析基础",
+    "title": "问题与检索策略",
+    "task": "读R17适用范围；围绕一个通用方法问题制定PICO/PECO、检索式和纳排标准。",
+    "deliverable": "可重复检索式",
+    "references": "[R17 BMJ 2021](https://www.bmj.com/content/372/bmj.n71)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W11-S02",
+    "week": 11,
+    "number": 2,
+    "week_title": "系统综述与Meta分析基础",
+    "title": "筛选与数据提取",
+    "task": "小规模检索并记录真实数量；从3—5篇可获取论文提取一致尺度，不称完整系统综述。",
+    "deliverable": "筛选日志＋提取表",
+    "references": "[R17 BMJ 2021](https://www.bmj.com/content/372/bmj.n71)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W11-S03",
+    "week": 11,
+    "number": 3,
+    "week_title": "系统综述与Meta分析基础",
+    "title": "合并效应与异质性",
+    "task": "用D5教学效应表拟合固定/随机效应；报告tau²、I²及适用时的预测区间。",
+    "deliverable": "森林图＋模型比较",
+    "references": "[R17 BMJ 2021](https://www.bmj.com/content/372/bmj.n71)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W11-S04",
+    "week": 11,
+    "number": 4,
+    "week_title": "系统综述与Meta分析基础",
+    "title": "偏倚与证据解释",
+    "task": "讨论少研究时漏斗图限制；区分PRISMA报告和偏倚评估，写证据综合练习。",
+    "deliverable": "练习报告＋PRISMA流程",
+    "references": "[R17 BMJ 2021](https://www.bmj.com/content/372/bmj.n71)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)"
+  },
+  {
+    "code": "W11-S05",
+    "week": 11,
+    "number": 5,
+    "week_title": "系统综述与Meta分析基础",
+    "title": "本周拓展练习",
+    "task": "选择一篇医学顶刊系统综述，由单次检索按兴趣补充，检查其检索和偏倚工具。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R17 BMJ 2021](https://www.bmj.com/content/372/bmj.n71)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)；[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)。"
+  },
+  {
+    "code": "W12-S01",
+    "week": 12,
+    "number": 1,
+    "week_title": "传统流行病学综合项目",
+    "title": "方案与数据冻结",
+    "task": "用已熟悉的数据写分析计划；指定一个主要暴露/结局、时间结构和调整依据。",
+    "deliverable": "protocol v1＋纳排图",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R11 BMJ 2009](https://www.bmj.com/content/338/bmj.b2393)；[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)"
+  },
+  {
+    "code": "W12-S02",
+    "week": 12,
+    "number": 2,
+    "week_title": "传统流行病学综合项目",
+    "title": "主要分析",
+    "task": "执行预设描述、回归或生存分析；记录样本流失、缺失与编码检查。",
+    "deliverable": "Table 1＋主要结果",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R11 BMJ 2009](https://www.bmj.com/content/338/bmj.b2393)；[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)"
+  },
+  {
+    "code": "W12-S03",
+    "week": 12,
+    "number": 3,
+    "week_title": "传统流行病学综合项目",
+    "title": "针对性敏感性分析",
+    "task": "选2—3项对应明确假设的分析；避免机械增加亚组和模型。",
+    "deliverable": "敏感性表＋偏倚说明",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R11 BMJ 2009](https://www.bmj.com/content/338/bmj.b2393)；[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)"
+  },
+  {
+    "code": "W12-S04",
+    "week": 12,
+    "number": 4,
+    "week_title": "传统流行病学综合项目",
+    "title": "完整报告与同行检查",
+    "task": "按STROBE适用条目写2000字左右练习报告，核对文字、表图和代码一致。",
+    "deliverable": "项目A＋博客专题",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R11 BMJ 2009](https://www.bmj.com/content/338/bmj.b2393)；[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)"
+  },
+  {
+    "code": "W12-S05",
+    "week": 12,
+    "number": 5,
+    "week_title": "传统流行病学综合项目",
+    "title": "本周拓展练习",
+    "task": "请导师/同门检查问题、调整集与结论用词；记录修订。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R35 JAMA Internal Medicine 2019](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2734709)；[R11 BMJ 2009](https://www.bmj.com/content/338/bmj.b2393)；[R15 BMJ 2017](https://www.bmj.com/content/357/bmj.j2250)。"
+  },
+  {
+    "code": "W13-S01",
+    "week": 13,
+    "number": 1,
+    "week_title": "潜在结局、因果estimand与识别",
+    "title": "反事实与estimand",
+    "task": "读R02/R20，写出目标人群、策略、结局、时限、对比和效应尺度。",
+    "deliverable": "estimand规格表",
+    "references": "[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R18 JAMA 2015](https://jamanetwork.com/journals/jama/article-abstract/2463242)"
+  },
+  {
+    "code": "W13-S02",
+    "week": 13,
+    "number": 2,
+    "week_title": "潜在结局、因果estimand与识别",
+    "title": "识别假设与DAG",
+    "task": "用D0设置混杂和未测量因素，解释数据分析不能自动验证哪些假设。",
+    "deliverable": "识别假设清单",
+    "references": "[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R18 JAMA 2015](https://jamanetwork.com/journals/jama/article-abstract/2463242)"
+  },
+  {
+    "code": "W13-S03",
+    "week": 13,
+    "number": 3,
+    "week_title": "潜在结局、因果estimand与识别",
+    "title": "ATE、ATT、ATO",
+    "task": "为同一问题分别定义三个目标；模拟不同目标人群并比较真值。",
+    "deliverable": "人群/效应对照图",
+    "references": "[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R18 JAMA 2015](https://jamanetwork.com/journals/jama/article-abstract/2463242)"
+  },
+  {
+    "code": "W13-S04",
+    "week": 13,
+    "number": 4,
+    "week_title": "潜在结局、因果estimand与识别",
+    "title": "标准化与G-computation预习",
+    "task": "以正确设定的简单模型计算干预下标准化结局，解释预测模型如何服务因果问题。",
+    "deliverable": "标准化估计＋解释",
+    "references": "[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R18 JAMA 2015](https://jamanetwork.com/journals/jama/article-abstract/2463242)"
+  },
+  {
+    "code": "W13-S05",
+    "week": 13,
+    "number": 5,
+    "week_title": "潜在结局、因果estimand与识别",
+    "title": "本周拓展练习",
+    "task": "用R37作为理想随机试验参照，讨论观察数据需要补足什么。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R18 JAMA 2015](https://jamanetwork.com/journals/jama/article-abstract/2463242)。"
+  },
+  {
+    "code": "W14-S01",
+    "week": 14,
+    "number": 1,
+    "week_title": "倾向评分、匹配和加权",
+    "title": "PS模型与混杂集",
+    "task": "读R18；按DAG确定变量，拟合PS，检查共同支持而非用AUC选PS模型。",
+    "deliverable": "PS分布＋变量依据",
+    "references": "[R18 JAMA 2015](https://jamanetwork.com/journals/jama/article-abstract/2463242)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)"
+  },
+  {
+    "code": "W14-S02",
+    "week": 14,
+    "number": 2,
+    "week_title": "倾向评分、匹配和加权",
+    "title": "Matching与平衡",
+    "task": "实施一个匹配方案，记录丢失样本与目标变化；生成SMD/Love plot。",
+    "deliverable": "匹配流程＋平衡图",
+    "references": "[R18 JAMA 2015](https://jamanetwork.com/journals/jama/article-abstract/2463242)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)"
+  },
+  {
+    "code": "W14-S03",
+    "week": 14,
+    "number": 3,
+    "week_title": "倾向评分、匹配和加权",
+    "title": "IPTW与Overlap weighting",
+    "task": "计算稳定权重、OW与ESS；区分ATE/ATO，不将不同目标估计混成方法排名。",
+    "deliverable": "权重/ESS表",
+    "references": "[R18 JAMA 2015](https://jamanetwork.com/journals/jama/article-abstract/2463242)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)"
+  },
+  {
+    "code": "W14-S04",
+    "week": 14,
+    "number": 4,
+    "week_title": "倾向评分、匹配和加权",
+    "title": "效应估计与方差",
+    "task": "使用与估计器匹配的方差方法；诊断不足时修改设计或限定目标，避免只截尾掩盖问题。",
+    "deliverable": "因果小报告",
+    "references": "[R18 JAMA 2015](https://jamanetwork.com/journals/jama/article-abstract/2463242)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)"
+  },
+  {
+    "code": "W14-S05",
+    "week": 14,
+    "number": 5,
+    "week_title": "倾向评分、匹配和加权",
+    "title": "本周拓展练习",
+    "task": "对照R02讨论加权后的目标人群与结果可推广性。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R18 JAMA 2015](https://jamanetwork.com/journals/jama/article-abstract/2463242)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R02 International Journal of Epidemiology 2025](https://academic.oup.com/ije/article/54/1/dyaf003/7979383)。"
+  },
+  {
+    "code": "W15-S01",
+    "week": 15,
+    "number": 1,
+    "week_title": "G-computation、AIPW与稳健估计",
+    "title": "Outcome regression与标准化",
+    "task": "读R19模型框架；在D0上实现G-computation并与真值比较。",
+    "deliverable": "标准化估计表",
+    "references": "[R19 American Journal of Epidemiology 2011](https://doi.org/10.1093/aje/kwq439)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)"
+  },
+  {
+    "code": "W15-S02",
+    "week": 15,
+    "number": 2,
+    "week_title": "G-computation、AIPW与稳健估计",
+    "title": "AIPW公式与代码",
+    "task": "先用无删失二元或连续结局实现AIPW；不直接套用到删失生存结局。",
+    "deliverable": "手写实现＋公式解释",
+    "references": "[R19 American Journal of Epidemiology 2011](https://doi.org/10.1093/aje/kwq439)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)"
+  },
+  {
+    "code": "W15-S03",
+    "week": 15,
+    "number": 3,
+    "week_title": "G-computation、AIPW与稳健估计",
+    "title": "双重稳健模拟",
+    "task": "分别设两个模型正确/错误的四种情形，重复模拟比较偏倚和覆盖率。",
+    "deliverable": "四情形结果图",
+    "references": "[R19 American Journal of Epidemiology 2011](https://doi.org/10.1093/aje/kwq439)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)"
+  },
+  {
+    "code": "W15-S04",
+    "week": 15,
+    "number": 4,
+    "week_title": "G-computation、AIPW与稳健估计",
+    "title": "Cross-fitting与方法取舍",
+    "task": "实现简单cross-fitting；比较回归、IPTW、G-computation、AIPW，确认同一estimand。",
+    "deliverable": "估计器对照报告",
+    "references": "[R19 American Journal of Epidemiology 2011](https://doi.org/10.1093/aje/kwq439)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)"
+  },
+  {
+    "code": "W15-S05",
+    "week": 15,
+    "number": 5,
+    "week_title": "G-computation、AIPW与稳健估计",
+    "title": "本周拓展练习",
+    "task": "了解TMLE步骤与目标参数，不要求一周内掌握全部理论。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R19 American Journal of Epidemiology 2011](https://doi.org/10.1093/aje/kwq439)；[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R06 New England Journal of Medicine 2019](https://www.nejm.org/doi/abs/10.1056/NEJMe1906559)。"
+  },
+  {
+    "code": "W16-S01",
+    "week": 16,
+    "number": 1,
+    "week_title": "目标试验模拟与纵向因果思路",
+    "title": "先写目标试验",
+    "task": "读R20/R21；指定资格、策略、分配、随访、结局、estimand和分析。",
+    "deliverable": "目标试验表",
+    "references": "[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R21 BMJ 2025](https://www.bmj.com/content/390/bmj-2025-087179)；[R07 BMJ 2023](https://www.bmj.com/content/383/bmj-2022-072346)"
+  },
+  {
+    "code": "W16-S02",
+    "week": 16,
+    "number": 2,
+    "week_title": "目标试验模拟与纵向因果思路",
+    "title": "映射到观察数据",
+    "task": "核查实际能测到的时间、治疗、混杂和结局；读R07，记录无法映射的组件。",
+    "deliverable": "数据映射表＋时间轴",
+    "references": "[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R21 BMJ 2025](https://www.bmj.com/content/390/bmj-2025-087179)；[R07 BMJ 2023](https://www.bmj.com/content/383/bmj-2022-072346)"
+  },
+  {
+    "code": "W16-S03",
+    "week": 16,
+    "number": 3,
+    "week_title": "目标试验模拟与纵向因果思路",
+    "title": "时变混杂与IPCW概览",
+    "task": "用D0画治疗—混杂反馈；演示普通时变调整与g-methods思路，说明删失权重用途。",
+    "deliverable": "纵向DAG＋简化模拟",
+    "references": "[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R21 BMJ 2025](https://www.bmj.com/content/390/bmj-2025-087179)；[R07 BMJ 2023](https://www.bmj.com/content/383/bmj-2022-072346)"
+  },
+  {
+    "code": "W16-S04",
+    "week": 16,
+    "number": 4,
+    "week_title": "目标试验模拟与纵向因果思路",
+    "title": "可行性与报告",
+    "task": "选择可执行的基线策略分析；持续策略不足则报告限制，不能用标题替代设计。",
+    "deliverable": "项目B＋TARGET检查",
+    "references": "[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R21 BMJ 2025](https://www.bmj.com/content/390/bmj-2025-087179)；[R07 BMJ 2023](https://www.bmj.com/content/383/bmj-2022-072346)"
+  },
+  {
+    "code": "W16-S05",
+    "week": 16,
+    "number": 5,
+    "week_title": "目标试验模拟与纵向因果思路",
+    "title": "本周拓展练习",
+    "task": "clone–censor–weight只做原理阅读；需相应数据和假设后再实践。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R20 JAMA 2022](https://jamanetwork.com/journals/jama/article-abstract/2799678)；[R21 BMJ 2025](https://www.bmj.com/content/390/bmj-2025-087179)；[R07 BMJ 2023](https://www.bmj.com/content/383/bmj-2022-072346)。"
+  },
+  {
+    "code": "W17-S01",
+    "week": 17,
+    "number": 1,
+    "week_title": "预测研究设计、样本量与正则化",
+    "title": "诊断/预后与使用场景",
+    "task": "读R22/R36；明确谁、何时、预测什么、用于什么决策，列出预测时点可用变量。",
+    "deliverable": "预测protocol",
+    "references": "[R22 BMJ 2024](https://www.bmj.com/content/386/bmj-2023-078276)；[R23 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074819)；[R25 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074821)；[R36 BMJ 2017](https://www.bmj.com/content/357/bmj.j2099)"
+  },
+  {
+    "code": "W17-S02",
+    "week": 17,
+    "number": 2,
+    "week_title": "预测研究设计、样本量与正则化",
+    "title": "样本量与内部验证设计",
+    "task": "读R25；根据结局、参数复杂度和精度规划，不在小样本机械切成三份。",
+    "deliverable": "验证方案＋样本量思路",
+    "references": "[R22 BMJ 2024](https://www.bmj.com/content/386/bmj-2023-078276)；[R23 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074819)；[R25 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074821)；[R36 BMJ 2017](https://www.bmj.com/content/357/bmj.j2099)"
+  },
+  {
+    "code": "W17-S03",
+    "week": 17,
+    "number": 3,
+    "week_title": "预测研究设计、样本量与正则化",
+    "title": "Ridge、LASSO与Elastic Net",
+    "task": "在固定的训练流程内做预处理、调参和选择，保留未参与决策的测试数据。",
+    "deliverable": "正则化曲线＋基线",
+    "references": "[R22 BMJ 2024](https://www.bmj.com/content/386/bmj-2023-078276)；[R23 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074819)；[R25 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074821)；[R36 BMJ 2017](https://www.bmj.com/content/357/bmj.j2099)"
+  },
+  {
+    "code": "W17-S04",
+    "week": 17,
+    "number": 4,
+    "week_title": "预测研究设计、样本量与正则化",
+    "title": "嵌套重采样与乐观偏倚",
+    "task": "比较错误的全数据筛选与正确的嵌套流程；记录患者/研究层级分组。",
+    "deliverable": "泄漏演示＋流程图",
+    "references": "[R22 BMJ 2024](https://www.bmj.com/content/386/bmj-2023-078276)；[R23 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074819)；[R25 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074821)；[R36 BMJ 2017](https://www.bmj.com/content/357/bmj.j2099)"
+  },
+  {
+    "code": "W17-S05",
+    "week": 17,
+    "number": 5,
+    "week_title": "预测研究设计、样本量与正则化",
+    "title": "本周拓展练习",
+    "task": "按R26记录预测研究报告条目，列出仍缺的信息。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R22 BMJ 2024](https://www.bmj.com/content/386/bmj-2023-078276)；[R23 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074819)；[R25 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074821)；[R36 BMJ 2017](https://www.bmj.com/content/357/bmj.j2099)。"
+  },
+  {
+    "code": "W18-S01",
+    "week": 18,
+    "number": 1,
+    "week_title": "树模型、模型比较与解释",
+    "title": "RF与XGBoost",
+    "task": "在相同数据和信息集上比较Logistic/Cox基线、RF和XGBoost，保持调参预算可比。",
+    "deliverable": "模型比较初表",
+    "references": "[R22 BMJ 2024](https://www.bmj.com/content/386/bmj-2023-078276)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R28 Nature Medicine 2024](https://www.nature.com/articles/s41591-024-03164-7)"
+  },
+  {
+    "code": "W18-S02",
+    "week": 18,
+    "number": 2,
+    "week_title": "树模型、模型比较与解释",
+    "title": "公平调参与学习曲线",
+    "task": "读R28模型选择和验证设计；只在训练中调参，画样本量/性能学习曲线。",
+    "deliverable": "调参记录＋学习曲线",
+    "references": "[R22 BMJ 2024](https://www.bmj.com/content/386/bmj-2023-078276)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R28 Nature Medicine 2024](https://www.nature.com/articles/s41591-024-03164-7)"
+  },
+  {
+    "code": "W18-S03",
+    "week": 18,
+    "number": 3,
+    "week_title": "树模型、模型比较与解释",
+    "title": "特征重要性与SHAP",
+    "task": "阅读R28解释相关部分；比较相关特征导致的重要性不稳定，限定为模型行为解释。",
+    "deliverable": "解释图＋限制",
+    "references": "[R22 BMJ 2024](https://www.bmj.com/content/386/bmj-2023-078276)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R28 Nature Medicine 2024](https://www.nature.com/articles/s41591-024-03164-7)"
+  },
+  {
+    "code": "W18-S04",
+    "week": 18,
+    "number": 4,
+    "week_title": "树模型、模型比较与解释",
+    "title": "消融与增量价值",
+    "task": "比较临床变量、扩展变量及联合模型；不因AUROC最高直接判定临床最好。",
+    "deliverable": "消融表＋方法批评",
+    "references": "[R22 BMJ 2024](https://www.bmj.com/content/386/bmj-2023-078276)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R28 Nature Medicine 2024](https://www.nature.com/articles/s41591-024-03164-7)"
+  },
+  {
+    "code": "W18-S05",
+    "week": 18,
+    "number": 5,
+    "week_title": "树模型、模型比较与解释",
+    "title": "本周拓展练习",
+    "task": "用R27对一篇自选ML医学论文做偏倚评价。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R22 BMJ 2024](https://www.bmj.com/content/386/bmj-2023-078276)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R28 Nature Medicine 2024](https://www.nature.com/articles/s41591-024-03164-7)。"
+  },
+  {
+    "code": "W19-S01",
+    "week": 19,
+    "number": 1,
+    "week_title": "区分度、校准、净获益与不确定性",
+    "title": "区分度与置信区间",
+    "task": "计算AUROC、适用时AUPRC及不确定性；按患者层级重采样，不重复使用测试集调模型。",
+    "deliverable": "ROC/PR＋区间",
+    "references": "[R24 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074820)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R27 BMJ 2025](https://www.bmj.com/content/388/bmj-2024-082505)"
+  },
+  {
+    "code": "W19-S02",
+    "week": 19,
+    "number": 2,
+    "week_title": "区分度、校准、净获益与不确定性",
+    "title": "校准与Brier",
+    "task": "评估校准曲线、截距、斜率与Brier；理解病例对照抽样对概率校准的影响。",
+    "deliverable": "校准图＋性能表",
+    "references": "[R24 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074820)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R27 BMJ 2025](https://www.bmj.com/content/388/bmj-2024-082505)"
+  },
+  {
+    "code": "W19-S03",
+    "week": 19,
+    "number": 3,
+    "week_title": "区分度、校准、净获益与不确定性",
+    "title": "决策阈值与DCA",
+    "task": "读R24相关评价；从使用场景指定合理阈值，检查适用人群与事件率后解释净获益。",
+    "deliverable": "DCA或不适用说明",
+    "references": "[R24 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074820)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R27 BMJ 2025](https://www.bmj.com/content/388/bmj-2024-082505)"
+  },
+  {
+    "code": "W19-S04",
+    "week": 19,
+    "number": 4,
+    "week_title": "区分度、校准、净获益与不确定性",
+    "title": "报告与风险评价",
+    "task": "分别用R26做报告核查、R27做偏倚评价；整理模型局限和适用范围。",
+    "deliverable": "完整评价报告",
+    "references": "[R24 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074820)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R27 BMJ 2025](https://www.bmj.com/content/388/bmj-2024-082505)"
+  },
+  {
+    "code": "W19-S05",
+    "week": 19,
+    "number": 5,
+    "week_title": "区分度、校准、净获益与不确定性",
+    "title": "本周拓展练习",
+    "task": "recalibration只在独立更新数据或规定验证流程中拟合，不在最终测试上优化后冒称原模型性能。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R24 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074820)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R27 BMJ 2025](https://www.bmj.com/content/388/bmj-2024-082505)。"
+  },
+  {
+    "code": "W20-S01",
+    "week": 20,
+    "number": 1,
+    "week_title": "生存预测、外部验证与迁移",
+    "title": "生存预测基线与ML",
+    "task": "在D3上比较Cox、惩罚Cox与RSF；所有预处理在重采样内，样本小则作为教学比较。",
+    "deliverable": "固定时点预测表",
+    "references": "[R23 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074819)；[R24 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074820)；[R28 Nature Medicine 2024](https://www.nature.com/articles/s41591-024-03164-7)；[R36 BMJ 2017](https://www.bmj.com/content/357/bmj.j2099)"
+  },
+  {
+    "code": "W20-S02",
+    "week": 20,
+    "number": 2,
+    "week_title": "生存预测、外部验证与迁移",
+    "title": "删失调整的性能",
+    "task": "选择合适C-index、时间依赖AUC/Brier与校准；检查删失支持和评价时间窗。",
+    "deliverable": "生存性能图",
+    "references": "[R23 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074819)；[R24 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074820)；[R28 Nature Medicine 2024](https://www.nature.com/articles/s41591-024-03164-7)；[R36 BMJ 2017](https://www.bmj.com/content/357/bmj.j2099)"
+  },
+  {
+    "code": "W20-S03",
+    "week": 20,
+    "number": 3,
+    "week_title": "生存预测、外部验证与迁移",
+    "title": "时间/地区/机构验证",
+    "task": "读R28独立验证与R36队列划分；有数据才外部验证，随机切分不能称为外部验证。",
+    "deliverable": "验证矩阵＋泛化报告",
+    "references": "[R23 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074819)；[R24 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074820)；[R28 Nature Medicine 2024](https://www.nature.com/articles/s41591-024-03164-7)；[R36 BMJ 2017](https://www.bmj.com/content/357/bmj.j2099)"
+  },
+  {
+    "code": "W20-S04",
+    "week": 20,
+    "number": 4,
+    "week_title": "生存预测、外部验证与迁移",
+    "title": "项目整合与深度复现选文",
+    "task": "完成项目C；按权限、代码、结局、算力筛出W23复现论文，立即检查数据下载。",
+    "deliverable": "项目C＋复现可行性卡",
+    "references": "[R23 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074819)；[R24 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074820)；[R28 Nature Medicine 2024](https://www.nature.com/articles/s41591-024-03164-7)；[R36 BMJ 2017](https://www.bmj.com/content/357/bmj.j2099)"
+  },
+  {
+    "code": "W20-S05",
+    "week": 20,
+    "number": 5,
+    "week_title": "生存预测、外部验证与迁移",
+    "title": "本周拓展练习",
+    "task": "读R32或R33设计与数据声明，也可选完全不同疾病的同等可复现论文。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R23 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074819)；[R24 BMJ 2024](https://www.bmj.com/content/384/bmj-2023-074820)；[R28 Nature Medicine 2024](https://www.nature.com/articles/s41591-024-03164-7)；[R36 BMJ 2017](https://www.bmj.com/content/357/bmj.j2099)。"
+  },
+  {
+    "code": "W21-S01",
+    "week": 21,
+    "number": 1,
+    "week_title": "因果机器学习与异质性",
+    "title": "ML估计nuisance与正交化",
+    "task": "读R29核心思路；在已知真值模拟中比较普通回归、AIPW和简化DML。",
+    "deliverable": "偏倚比较＋原理图",
+    "references": "[R29 The Econometrics Journal 2018](https://academic.oup.com/ectj/article/21/1/C1/5056401)；[R30 International Journal of Epidemiology 2026](https://academic.oup.com/ije/article/55/3/dyag092/8707559)；[R38 BMJ 2024；2025更正](https://www.bmj.com/content/386/bmj-2024-079377)"
+  },
+  {
+    "code": "W21-S02",
+    "week": 21,
+    "number": 2,
+    "week_title": "因果机器学习与异质性",
+    "title": "CATE与S/T/X-learner",
+    "task": "读R30；生成异质效应，选S/T两种learner，比较估计与真实CATE。",
+    "deliverable": "真值/估计CATE图",
+    "references": "[R29 The Econometrics Journal 2018](https://academic.oup.com/ectj/article/21/1/C1/5056401)；[R30 International Journal of Epidemiology 2026](https://academic.oup.com/ije/article/55/3/dyag092/8707559)；[R38 BMJ 2024；2025更正](https://www.bmj.com/content/386/bmj-2024-079377)"
+  },
+  {
+    "code": "W21-S03",
+    "week": 21,
+    "number": 3,
+    "week_title": "因果机器学习与异质性",
+    "title": "Causal forest与独立评价",
+    "task": "学习honesty、cross-fitting和HTE校准；亚组效应评价避免同一结果反复选组。",
+    "deliverable": "HTE探索报告",
+    "references": "[R29 The Econometrics Journal 2018](https://academic.oup.com/ectj/article/21/1/C1/5056401)；[R30 International Journal of Epidemiology 2026](https://academic.oup.com/ije/article/55/3/dyag092/8707559)；[R38 BMJ 2024；2025更正](https://www.bmj.com/content/386/bmj-2024-079377)"
+  },
+  {
+    "code": "W21-S04",
+    "week": 21,
+    "number": 4,
+    "week_title": "因果机器学习与异质性",
+    "title": "顶刊更正与结论边界",
+    "task": "读R38及2025更正；解释out-of-bag错误为什么影响评价；区分预后因素与效应修饰因素。",
+    "deliverable": "更正阅读卡＋方法限制",
+    "references": "[R29 The Econometrics Journal 2018](https://academic.oup.com/ectj/article/21/1/C1/5056401)；[R30 International Journal of Epidemiology 2026](https://academic.oup.com/ije/article/55/3/dyag092/8707559)；[R38 BMJ 2024；2025更正](https://www.bmj.com/content/386/bmj-2024-079377)"
+  },
+  {
+    "code": "W21-S05",
+    "week": 21,
+    "number": 5,
+    "week_title": "因果机器学习与异质性",
+    "title": "本周拓展练习",
+    "task": "阅读PATH或R30案例，讨论能否支持个体治疗决策；不把CATE当个人效应真值。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R29 The Econometrics Journal 2018](https://academic.oup.com/ectj/article/21/1/C1/5056401)；[R30 International Journal of Epidemiology 2026](https://academic.oup.com/ije/article/55/3/dyag092/8707559)；[R38 BMJ 2024；2025更正](https://www.bmj.com/content/386/bmj-2024-079377)；[R38更正（2025）](https://www.bmj.com/content/389/bmj.r859)。"
+  },
+  {
+    "code": "W22-S01",
+    "week": 22,
+    "number": 1,
+    "week_title": "纵向EHR与深度学习增量价值",
+    "title": "EHR结构与时间窗",
+    "task": "读R31设计；用D6或模拟表构建patient/visit/lab结构，区分观察窗、预测窗和结局。",
+    "deliverable": "EHR数据方案",
+    "references": "[R31 npj Digital Medicine 2018](https://www.nature.com/articles/s41746-018-0029-1)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R27 BMJ 2025](https://www.bmj.com/content/388/bmj-2024-082505)"
+  },
+  {
+    "code": "W22-S02",
+    "week": 22,
+    "number": 2,
+    "week_title": "纵向EHR与深度学习增量价值",
+    "title": "患者划分与观察过程",
+    "task": "演示按visit随机划分的泄漏；明确不规则测量与missingness，按患者/时间评价。",
+    "deliverable": "划分对照＋缺失说明",
+    "references": "[R31 npj Digital Medicine 2018](https://www.nature.com/articles/s41746-018-0029-1)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R27 BMJ 2025](https://www.bmj.com/content/388/bmj-2024-082505)"
+  },
+  {
+    "code": "W22-S03",
+    "week": 22,
+    "number": 3,
+    "week_title": "纵向EHR与深度学习增量价值",
+    "title": "简单神经网络与基线",
+    "task": "在D0或D3完成Logistic/树模型与一个小MLP比较；样本不足不训练大模型。",
+    "deliverable": "训练曲线＋比较表",
+    "references": "[R31 npj Digital Medicine 2018](https://www.nature.com/articles/s41746-018-0029-1)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R27 BMJ 2025](https://www.bmj.com/content/388/bmj-2024-082505)"
+  },
+  {
+    "code": "W22-S04",
+    "week": 22,
+    "number": 4,
+    "week_title": "纵向EHR与深度学习增量价值",
+    "title": "序列模型与价值判断",
+    "task": "理解mask、padding、time embedding及LSTM/Transformer；默认仅概念，条件充分才做小序列模型。",
+    "deliverable": "架构图＋增量价值批评",
+    "references": "[R31 npj Digital Medicine 2018](https://www.nature.com/articles/s41746-018-0029-1)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R27 BMJ 2025](https://www.bmj.com/content/388/bmj-2024-082505)"
+  },
+  {
+    "code": "W22-S05",
+    "week": 22,
+    "number": 5,
+    "week_title": "纵向EHR与深度学习增量价值",
+    "title": "本周拓展练习",
+    "task": "有完整授权EHR且样本量适当时才训练LSTM；Transformer与基础模型预训练放后续。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R31 npj Digital Medicine 2018](https://www.nature.com/articles/s41746-018-0029-1)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)；[R27 BMJ 2025](https://www.bmj.com/content/388/bmj-2024-082505)。"
+  },
+  {
+    "code": "W23-S01",
+    "week": 23,
+    "number": 1,
+    "week_title": "高水平论文核心分析复现",
+    "title": "复现范围与环境固定",
+    "task": "明确原数据/替代数据，选定一个主要表图；核对原文、补充、版本、勘误和样本重叠。",
+    "deliverable": "复现protocol＋环境记录",
+    "references": "[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)"
+  },
+  {
+    "code": "W23-S02",
+    "week": 23,
+    "number": 2,
+    "week_title": "高水平论文核心分析复现",
+    "title": "队列与数据处理复现",
+    "task": "核对ID、样本数、结局、纳排、缺失、特征和时间；差异要记录而非强行对齐。",
+    "deliverable": "样本流图＋差异日志",
+    "references": "[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)"
+  },
+  {
+    "code": "W23-S03",
+    "week": 23,
+    "number": 3,
+    "week_title": "高水平论文核心分析复现",
+    "title": "主要模型与表图",
+    "task": "执行原文核心分析；记录模型参数、随机种子和运行状态；未运行则不写数字。",
+    "deliverable": "核心表图＋可运行代码",
+    "references": "[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)"
+  },
+  {
+    "code": "W23-S04",
+    "week": 23,
+    "number": 4,
+    "week_title": "高水平论文核心分析复现",
+    "title": "误差来源与批评",
+    "task": "比较原文与本次结果；区分软件、样本、变量和方法差异，提出需验证的扩展。",
+    "deliverable": "复现报告＋扩展清单",
+    "references": "[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)"
+  },
+  {
+    "code": "W23-S05",
+    "week": 23,
+    "number": 5,
+    "week_title": "高水平论文核心分析复现",
+    "title": "本周拓展练习",
+    "task": "若下载/处理延迟，减少图表数量；仍明确为方法练习或部分复现，不声称完整复现。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)。"
+  },
+  {
+    "code": "W24-S01",
+    "week": 24,
+    "number": 1,
+    "week_title": "验证、论文写作与原创方案",
+    "title": "针对性稳健性与验证",
+    "task": "执行2项检查明确假设的分析；预测项目保护独立测试数据，因果项目保持estimand一致。",
+    "deliverable": "敏感性结果＋解释",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R21 BMJ 2025](https://www.bmj.com/content/390/bmj-2025-087179)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)"
+  },
+  {
+    "code": "W24-S02",
+    "week": 24,
+    "number": 2,
+    "week_title": "验证、论文写作与原创方案",
+    "title": "研究报告与补充材料",
+    "task": "按适用报告规范写Methods/Results/Discussion，标明教学、复现、独立验证或探索性质。",
+    "deliverable": "报告＋补充材料",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R21 BMJ 2025](https://www.bmj.com/content/390/bmj-2025-087179)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)"
+  },
+  {
+    "code": "W24-S03",
+    "week": 24,
+    "number": 3,
+    "week_title": "验证、论文写作与原创方案",
+    "title": "博客与复现发布检查",
+    "task": "对照模板整理教程；去掉个体数据和未经许可复制的原图，保留来源、代码、版本和限制。",
+    "deliverable": "博客Markdown＋复现README",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R21 BMJ 2025](https://www.bmj.com/content/390/bmj-2025-087179)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)"
+  },
+  {
+    "code": "W24-S04",
+    "week": 24,
+    "number": 4,
+    "week_title": "验证、论文写作与原创方案",
+    "title": "原创课题与下一阶段计划",
+    "task": "做小型专题检索，写问题、差异、数据、验证、关键假设和止损标准，交导师讨论。",
+    "deliverable": "原创protocol＋未来12周任务",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R21 BMJ 2025](https://www.bmj.com/content/390/bmj-2025-087179)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)"
+  },
+  {
+    "code": "W24-S05",
+    "week": 24,
+    "number": 5,
+    "week_title": "验证、论文写作与原创方案",
+    "title": "本周拓展练习",
+    "task": "把同行反馈写入修订日志；不以显著性或高AUC替代研究贡献。 文献沿用本周锚点；需要新增论文时当次检索并核验。",
+    "deliverable": "选修学习记录与未解决问题",
+    "references": "[R01 BMJ 2007](https://www.bmj.com/content/335/7624/806.full)；[R21 BMJ 2025](https://www.bmj.com/content/390/bmj-2025-087179)；[R26 BMJ 2024](https://www.bmj.com/content/385/bmj-2023-078378)。"
+  }
+]

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local recovery archive: never commit or publish
+_private_backup/
+_test_docx.docx
+ChatGPT 图像*.png
+site/
+_site_build/
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+.env*
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.tmp/
+.probe/

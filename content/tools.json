@@ -1,0 +1,18 @@
+[
+  {
+    "name": "countDowner",
+    "slug": "countdowner",
+    "summary": "一款轻量可自定义的汇报展示(PPT/Keynote)倒计时工具, 界面简洁、配置灵活。",
+    "description": "## countDowner — 汇报展示倒计时工具\n\n一款轻量、可自定义的倒计时工具, 专为演示场景(PPT/Keynote)设计, 具备简洁的 UI 和灵活的配置。\n\n### 特性\n\n- 参数设置页面, 可自由配置倒计时时长与提示阈值;\n- 正常 / 提醒 / 警告阶段颜色提示;\n- 手绘风格图标, 界面清爽。\n\n### 适用场景\n\n- 学术汇报、组会展示;\n- 课堂演讲、答辩计时。\n\n> 语言: Python · 开源仓库见上方链接。\n",
+    "url": "https://github.com/Daaaaxianer/countDowner",
+    "category": "效率工具"
+  },
+  {
+    "name": "GeneConverDetect",
+    "slug": "geneconverdetect",
+    "summary": "基因置换(Gene Conversion)检测分析流程: 基于四联子模型, 结合共线性分析、Ks 计算与 Bootstrap 检验。",
+    "description": "## GeneConverDetect — 基因置换检测分析流程\n\n本流程包含三个 Python 脚本, 旨在从全基因组复制(WGD)或多倍体背景下, 系统性地筛选并检测**基因置换(Gene Conversion)**事件。\n\n### 原理\n\n流程基于**四联子(Quartet)**模型, 结合:\n\n- **共线性分析**;\n- **同义突变率(Ks)**计算;\n- **Bootstrap** 统计检验;\n\n从而识别出违反正常进化时钟的异常基因对。\n\n### 环境与依赖\n\n- 核心计算依赖 **ClustalW** 进行多序列比对(需加入 PATH);\n- Python 库: `biopython`, `argparse`。\n\n### 脚本列表\n\n| 顺序 | 脚本 | 功能 |\n| --- | --- | --- |\n| 01 | `1.filterOrthogroups` | 筛选直系同源组 |\n| 02 | `2.calculateKs` | 计算同义突变率 |\n| 03 | `3.detectConversion` | Bootstrap 检验检测置换事件 |\n\n> 语言: Python · 依赖: ClustalW + Biopython\n",
+    "url": "https://github.com/Daaaaxianer/GeneConverDetect",
+    "category": "生信流程"
+  }
+]
