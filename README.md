@@ -1,5 +1,9 @@
 # MonkeyDream
 
+访问网站：[monkeydream.top](https://monkeydream.top) · [daaaaxianer.github.io/monkeydream/](https://daaaaxianer.github.io/monkeydream/)
+
+GitHub Pages 地址在绑定自定义域名后会跳转到 `monkeydream.top`。本项目的默认访问路径包含 `/monkeydream/`。
+
 简洁的个人静态博客：HTML、CSS、JavaScript、SVG。访问网站不需要 Python、Django、数据库或服务器进程。Python 仅用于在本地或 GitHub Actions 将 Markdown 生成静态文件。
 
 ## 目录
@@ -44,7 +48,7 @@ python -m http.server 8000 --bind 127.0.0.1 --directory site
 
 域名由你自行续费。GitHub Free 的公开仓库可使用 Pages；服务受 GitHub 当前额度和政策约束，不作永久免费承诺。
 
-仓库：[Daaaaxianer/monkeydream](https://github.com/Daaaaxianer/monkeydream)。自动构建与发布已启用，GitHub Pages 已绑定 `monkeydream.top`；首次发布成功。域名还需要在 DNSPod 添加解析，记录与日常维护步骤见 [更新与维护](docs/更新与维护.md)。GitHub 默认网址在绑定域名后会跳转到自定义域名，DNS 生效前可能暂时无法打开。
+仓库：[Daaaaxianer/monkeydream](https://github.com/Daaaaxianer/monkeydream)。自动构建与发布已启用，GitHub Pages 已绑定 `monkeydream.top`；发布成功。DNSPod 已添加两个根域名 A 记录与 www 的 CNAME 记录。解析与日常维护步骤见 [更新与维护](docs/更新与维护.md)。GitHub 默认网址在绑定域名后会跳转到自定义域名；HTTPS 证书由 GitHub 自动申请，准备完成后启用 Enforce HTTPS。
 
 官方说明：[自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)、[自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)。
 
