@@ -44,7 +44,9 @@ python -m http.server 8000 --bind 127.0.0.1 --directory site
 
 域名由你自行续费。GitHub Free 的公开仓库可使用 Pages；服务受 GitHub 当前额度和政策约束，不作永久免费承诺。
 
-官方说明：[自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)、[自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)。本次仅准备配置，没有改变你的 DNS 或上线仓库。
+仓库：[Daaaaxianer/monkeydream](https://github.com/Daaaaxianer/monkeydream)。自动构建与发布已启用，GitHub Pages 已绑定 `monkeydream.top`；首次发布成功。域名还需要在 DNSPod 添加解析，记录与日常维护步骤见 [更新与维护](docs/更新与维护.md)。GitHub 默认网址在绑定域名后会跳转到自定义域名，DNS 生效前可能暂时无法打开。
+
+官方说明：[自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)、[自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)。
 
 ## Logo
 

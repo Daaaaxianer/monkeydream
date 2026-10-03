@@ -9,6 +9,10 @@ venv/
 _private_backup/
 _test_docx.docx
 ChatGPT 图像*.png
+/logo1.png
+/logo2.png
+/docs/*preview.png
+/npx_npm_pnpm对比.md
 site/
 _site_build/
 db.sqlite3
