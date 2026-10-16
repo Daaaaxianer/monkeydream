@@ -6,6 +6,13 @@
     menu.setAttribute('aria-expanded', String(open));
     document.querySelector('#main-nav').classList.toggle('open', open);
   });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && menu?.getAttribute('aria-expanded') === 'true') {
+      menu.setAttribute('aria-expanded', 'false');
+      document.querySelector('#main-nav').classList.remove('open');
+      menu.focus();
+    }
+  });
   async function copy(button, text) {
     const label = button.textContent;
     try {
@@ -39,12 +46,43 @@
       toc.append(a);
     });
     if (!toc.children.length) toc.closest('aside').hidden = true;
+    else if (toc.closest('aside').querySelector('.toc-disclosure')) {
+      const aside = toc.closest('aside');
+      const disclosure = aside.querySelector('details');
+      const desktopSlot = document.createComment('desktop article navigation');
+      aside.before(desktopSlot);
+      const narrow = window.matchMedia('(max-width: 900px)');
+      const placeToc = () => {
+        if (narrow.matches) document.querySelector('.mobile-toc-slot').append(aside);
+        else desktopSlot.after(aside);
+        disclosure.open = !narrow.matches;
+      };
+      placeToc();
+      narrow.addEventListener('change', placeToc);
+      toc.addEventListener('click', event => {
+        if (event.target.closest('a') && narrow.matches) disclosure.open = false;
+      });
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(entries => {
+          const visible = entries.filter(entry => entry.isIntersecting);
+          if (!visible.length) return;
+          const id = visible[0].target.id;
+          [...toc.children].forEach(a => {
+            const active = a.getAttribute('href') === `#${id}`;
+            a.classList.toggle('active', active);
+            if (active) a.setAttribute('aria-current', 'location');
+            else a.removeAttribute('aria-current');
+          });
+        }, { rootMargin: '-110px 0px -55% 0px' });
+        document.querySelectorAll('#article-body h2, #article-body h3').forEach(heading => observer.observe(heading));
+      }
+    }
   }
   const top = document.querySelector('.back-top');
   if (top) {
     const refresh = () => { top.hidden = window.scrollY < 500; };
     window.addEventListener('scroll', refresh, { passive: true }); refresh();
-    top.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    top.addEventListener('click', () => window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' }));
   }
   const form = document.querySelector('#blog-filter');
   if (!form) return;
@@ -52,6 +90,8 @@
   const fields = ['q', 'type', 'evidence', 'session'];
   const params = new URLSearchParams(location.search);
   fields.forEach(name => { form.elements[name].value = params.get(name) || ''; });
+  const filterDetails = form.querySelector('.filter-details');
+  if (filterDetails && fields.slice(1).some(name => form.elements[name].value)) filterDetails.open = true;
   function filter(updateURL = true) {
     const values = Object.fromEntries(fields.map(name => [name, form.elements[name].value.trim()]));
     const terms = values.q.toLocaleLowerCase().split(/\s+/).filter(Boolean);

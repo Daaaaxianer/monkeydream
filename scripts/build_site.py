@@ -1,5 +1,6 @@
 """Build a standalone HTML/CSS/JS site. No web framework or database is used."""
 import json
+import hashlib
 import re
 import shutil
 import sys
@@ -61,7 +62,12 @@ def link(page, target, text, cls=""):
 
 
 def layout(page, title, body, active="", article=False, description=None):
-    asset = lambda path: esc(relative(page, "assets/" + path), quote=True)
+    def asset(path):
+        url = relative(page, "assets/" + path)
+        if path.endswith((".css", ".js")):
+            version = hashlib.sha256((OUT / "assets" / path).read_bytes()).hexdigest()[:12]
+            url += "?v=" + version
+        return esc(url, quote=True)
     nav = "".join(f'<a href="{esc(relative(page, url), quote=True)}"' + (' aria-current="page"' if key == active else "") + f'>{label}</a>' for key, label, url in [("home", "首页", "index.html"), ("blog", "博客", "blog/"), ("archive", "归档", "blog/archive/"), ("tools", "小工具", "tools/"), ("about", "关于", "about/")])
     math = f'<script defer src="{asset("js/math-config.js")}"></script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js"></script>' if article else ""
     desc = esc(description or CONFIG["description"], quote=True)
@@ -71,9 +77,9 @@ def layout(page, title, body, active="", article=False, description=None):
 <title>{esc(title)} · MonkeyDream</title><link rel="canonical" href="{esc(canonical,quote=True)}">
 <link rel="icon" href="{asset('logos/favicon.svg')}" type="image/svg+xml"><link rel="stylesheet" href="{asset('css/site.css')}"><link rel="stylesheet" href="{asset('css/syntax.css')}">
 <link rel="alternate" type="application/rss+xml" title="MonkeyDream" href="{esc(relative(page,'feed.xml'),quote=True)}">
-<script defer src="{asset('js/site.js')}"></script>{math}</head><body>
+<script defer src="{asset('js/site.js')}"></script>{math}</head><body><a class="skip-link" href="#main-content">跳到正文</a>
 <header class="site-header"><div class="shell nav"><a class="brand" href="{esc(relative(page,'index.html'),quote=True)}"><img src="{asset('logos/logo-wordmark.svg')}" width="224" height="42" alt="MonkeyDream"></a><button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button><nav id="main-nav" class="nav-links" aria-label="主导航">{nav}</nav></div></header>
-<main>{body}</main><footer class="site-footer"><div class="shell footer-inner"><div><a href="{esc(relative(page,'index.html'),quote=True)}"><img src="{asset('logos/logo-wordmark.svg')}" width="186" height="35" alt="MonkeyDream"></a><p>© {date.today().year} MonkeyDream · 保持好奇，慢慢记录。</p></div><nav class="footer-links" aria-label="页脚导航">{link(page,'about/','关于')}{link(page,'feed.xml','RSS')}</nav></div></footer><button type="button" class="back-top" aria-label="返回顶部" hidden>↑</button></body></html>'''
+<main id="main-content" tabindex="-1">{body}</main><footer class="site-footer"><div class="shell footer-inner"><div><a href="{esc(relative(page,'index.html'),quote=True)}"><img src="{asset('logos/logo-wordmark.svg')}" width="186" height="35" alt="MonkeyDream"></a><p>© {date.today().year} MonkeyDream · 保持好奇，慢慢记录。</p></div><nav class="footer-links" aria-label="页脚导航">{link(page,'blog/','博客')}{link(page,'about/','关于')}{link(page,'feed.xml','RSS')}</nav></div></footer><button type="button" class="back-top" aria-label="返回顶部" hidden>↑</button></body></html>'''
 
 
 def write(page, text):
@@ -84,7 +90,7 @@ def write(page, text):
 
 def post_row(page, post):
     category = link(page, "blog/category/" + quote(post["category_slug"]) + "/", post["category"]) if post.get("category_slug") else ""
-    return f'<article class="post-row"><div class="meta"><time datetime="{post["date"]}">{post["date"].replace("-", ".")}</time>{category}</div><h2>{link(page,post["url"],post["title"])}</h2><p>{esc(post.get("summary", ""))}</p>{link(page,post["url"],"阅读全文 ↗","read-link")}</article>'
+    return f'<article class="post-row"><div class="post-date"><time datetime="{post["date"]}">{post["date"].replace("-", ".")}</time>{category}</div><div class="post-content"><h2>{link(page,post["url"],post["title"])}</h2><p>{esc(post.get("summary", ""))}</p>{link(page,post["url"],"阅读全文","read-link")}</div></article>'
 
 
 def article_page(post, posts):
@@ -101,7 +107,7 @@ def article_page(post, posts):
     info = f'<section class="evidence" aria-label="文章与证据状态"><strong>{TYPES.get(post.get("article_type"),"其他文章")} · {evidence}</strong><p>更新于 {esc(post.get("updated",post["date"]))}</p><div class="evidence-links">{links}</div></section>' if post.get("article_type") != "other" or links else ""
     index = posts.index(post)
     adjacent = "".join(link(page,p["url"],label+p["title"]) for p,label in [(posts[index-1] if index else None,"← 较新："),(posts[index+1] if index+1<len(posts) else None,"较早：")] if p)
-    body = f'<div class="shell article-layout"><article class="article-main"><header class="article-head">{link(page,"blog/","← 博客")}<h1>{esc(post["title"])}</h1>{meta}</header>{info}<div class="article-body" id="article-body">{post["html"]}</div><nav class="article-next" aria-label="相邻文章">{adjacent}</nav></article><aside class="article-toc"><strong>文章目录</strong><nav id="toc" aria-label="文章目录"></nav></aside></div>'
+    body = f'<div class="shell article-layout"><article class="article-main"><header class="article-head">{link(page,"blog/","返回博客","back-link")}<h1>{esc(post["title"])}</h1>{meta}</header>{info}<div class="mobile-toc-slot"></div><div class="article-body" id="article-body">{post["html"]}</div><nav class="article-next" aria-label="相邻文章">{adjacent}</nav></article><aside class="article-toc"><details class="toc-disclosure" open><summary>文章目录</summary><nav id="toc" aria-label="文章目录"></nav></details></aside></div>'
     write(page, layout(page,post["title"],body,"blog",True,post.get("summary")))
 
 
@@ -111,7 +117,7 @@ def blog_page(posts, subset=None, title="博客", page="blog/index.html"):
     data = [{"url":relative(page,p["url"]),"title":p["title"],"summary":p.get("summary",""),"type":p.get("article_type","other"),"evidence":p.get("evidence_status","unspecified"),"category":p.get("category_slug",""),"tags":[t["slug"] for t in p.get("tags",[])],"sessions":p.get("sessions",[]),"search":p["title"]+" "+p.get("summary","")+" "+p["body"]} for p in shown]
     encoded = json.dumps(data,ensure_ascii=False).replace("<","\\u003c")
     cards = "".join('<div data-post="'+str(i)+'">'+post_row(page,p)+"</div>" for i,p in enumerate(shown))
-    body = f'<section class="shell page"><h1>{esc(title)}</h1><div class="blog-links">{link(page,"blog/learning/","学习路线")}{link(page,"blog/resources/","文献与数据资源")}{link(page,"blog/archive/","文章归档")}</div><form class="filters" id="blog-filter"><input type="search" name="q" aria-label="搜索文章" placeholder="搜索标题、摘要或正文…"><select name="type" aria-label="文章类型"><option value="">所有类型</option>{options(TYPES)}</select><select name="evidence" aria-label="证据状态"><option value="">所有证据状态</option>{options(EVIDENCE)}</select><input name="session" aria-label="课程编号" placeholder="课程编号 W01-S01"><button class="button" type="submit">筛选</button><button class="button" type="reset">清除</button></form><p id="filter-count" class="filter-count" aria-live="polite">{len(shown)} 篇文章</p><noscript><p class="no-script">全部公开文章列于下方；启用JavaScript可使用本地搜索。</p></noscript>{cards}<p id="search-empty" class="empty" hidden>没有匹配的文章，试试其他关键词。</p><script type="application/json" id="post-index">{encoded}</script></section>'
+    body = f'<section class="shell page blog-page"><div class="page-heading"><h1>{esc(title)}</h1><p class="page-lead">学习中的发现，研究中的尝试，还有生活里的小事。</p></div><nav class="blog-links" aria-label="博客资源">{link(page,"blog/learning/","学习路线")}{link(page,"blog/resources/","文献与数据资源")}{link(page,"blog/archive/","文章归档")}</nav><form class="filters" id="blog-filter"><div class="search-bar"><input type="search" name="q" aria-label="搜索文章" placeholder="搜索文章，找到一个想法…"><button class="button primary" type="submit">搜索</button></div><details class="filter-details"><summary>更多筛选</summary><div class="filter-fields"><label>文章类型<select name="type"><option value="">所有类型</option>{options(TYPES)}</select></label><label>证据状态<select name="evidence"><option value="">所有证据状态</option>{options(EVIDENCE)}</select></label><label>课程编号<input name="session" placeholder="如 W01-S01"></label></div></details><div class="filter-bottom"><p id="filter-count" class="filter-count" aria-live="polite">{len(shown)} 篇文章</p><button class="reset-filter" type="reset">清除筛选</button></div></form><noscript><p class="no-script">全部公开文章列于下方；启用JavaScript可使用本地搜索。</p></noscript>{cards}<p id="search-empty" class="empty" hidden>没有匹配的文章。试试缩短关键词，或清除筛选条件。</p><script type="application/json" id="post-index">{encoded}</script></section>'
     write(page,layout(page,title,body,"blog"))
 
 
@@ -125,7 +131,7 @@ def build():
     (OUT/"assets/css/syntax.css").write_text(HtmlFormatter(style="friendly").get_style_defs(".highlight"),encoding="utf-8")
     posts = load_posts()
     page = "index.html"
-    body = f'<div class="shell journal"><header class="intro"><img src="{relative(page,"assets/logos/logo.svg")}" width="78" height="78" alt="微笑眨眼的小猴"><div><h1>你好，欢迎来到 MonkeyDream。</h1><p>{esc(CONFIG["description"])}</p>{link(page,"about/","关于我 ↗")}</div></header><section aria-labelledby="latest-title"><div class="section-heading"><h2 id="latest-title">最新文章</h2>{link(page,"blog/","全部博客 →")}</div>{"".join(post_row(page,p) for p in posts[:8]) or "<p class=empty>还没有公开文章。</p>"}</section></div>'
+    body = f'<div class="shell journal"><header class="intro"><div class="intro-copy"><p class="intro-greeting">你好，我是 MonkeyDream。</p><h1>保持好奇，<br>慢慢记录。</h1><p class="intro-description">{esc(CONFIG["description"])}</p>{link(page,"about/","认识一下","intro-link")}</div><img class="intro-monkey" src="{relative(page,"assets/logos/logo.svg")}" width="240" height="240" alt="微笑眨眼的 MonkeyDream 小猴"></header><section aria-labelledby="latest-title"><div class="section-heading"><h2 id="latest-title">最近写下的</h2>{link(page,"blog/","查看全部文章","text-link")}</div>{"".join(post_row(page,p) for p in posts[:5]) or "<p class=empty>还没有公开文章。</p>"}</section></div>'
     write(page,layout(page,"个人博客",body,"home"))
     blog_page(posts)
     for post in posts:
