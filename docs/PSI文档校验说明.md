@@ -61,3 +61,27 @@
 - 上述数值通过本地精确分数算术复核，不是实测检验结果。
 - Bash 与 R 代码为模板；未运行 SUPPA2 或对真实结果表执行校正。不推断真实样本数、p 值或实验结论。
 - 正式使用前仍需用户根据自己的设计确认生物学重复、配对/批次、有效样本数、软件与依赖版本、过滤规则和校正家族。
+
+## 图示与文字修订
+
+依据用户后续要求，新增七类事件的两幅分面图及 TPM 归一化图。F1/F2、正链方向和 RI 保留区域均明确标注；原 PSI 分母图与统计流程图保留，全文共五幅图。
+
+使用 humanizer-zh 精简正文，合并重复限制说明，删去图中已完整呈现的 TPM 数字表。Bash/R 模板及关键数值不变。细节计算留在本说明，正文聚焦理解与判读。
+
+### 新增筛选建议的来源核对
+
+| 来源 | 核对位置 | 论文实际做法 | 不作出的推断 |
+| --- | --- | --- | --- |
+| Nature Communications 2023，Isoform-resolved transcriptome of the human preimplantation embryo，https://www.nature.com/articles/s41467-023-42558-y | Methods，Alternative splicing analysis | SUPPA2；p<0.05 且 ΔPSI>0.1 或 ΔPSI<−0.1 | 不把方法段的 p-value 改称全事件 BH-FDR |
+| Nature Communications 2022，Splicing is an alternate oncogenic pathway activation mechanism in glioma，https://www.nature.com/articles/s41467-022-28253-4 | Methods，RNA-seq/splicing analysis | 使用 rMATS/SUPPA2；包含率变化>15%，FDR<0.05 | 不假定两个工具有相同事件定义或 p 值计算 |
+| Nature Chemical Biology 2026，NCBP1 stress signaling drives alternative S6K1 splicing inhibiting translation，https://www.nature.com/articles/s41589-025-02135-4 | Results，RNA-seq differential splicing；Methods，Differential splicing analysis | SUPPA2；调整 p≤0.05，并在三个处理–对照比较中至少两项满足要求 | 不添加该段未报告的 ΔPSI 统一门槛或 BH 家族范围 |
+
+第三篇网页明确发布日期为 2026-02-10，DOI 中含 2025，不以 DOI 年份替代发表年份。三个实例只说明确有这些做法，不构成期刊频率统计或官方统一标准。
+
+本文建议与论文原方法分开列出：常规起点为 |ΔPSI|≥0.10、同一比较全部有效事件 BH p_adj<0.05；验证优先集可在同一候选集内取 |ΔPSI|≥0.20；原始经验 p<0.05 的集合明确标成探索候选。建议预设阈值并报告敏感性，不能据事件数量临时选择门槛。
+
+### 移出正文的实现细节
+
+在核对提交中，`calculate_empirical_pvalue` 使用局部重复差值绝对值的 ECDF，计算 `(1 - ECDF(abs(observed_dPSI))) * 0.5`。这一实现约定未改变；为缩短博文，正文保留源码链接与数值零的边界解释。
+
+原笔记算例的 `0.0001 * 1000 / 1` 应为 0.1，而非 0.001；该中间量仍需反向累积最小值才构成最终 BH。此勘误保留于本说明，正文使用已核验的完整五事件例子。
