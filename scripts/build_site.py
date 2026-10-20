@@ -72,9 +72,8 @@ def layout(page, title, body, active="", article=False, description=None):
     math = f'<script defer src="{asset("js/math-config.js")}"></script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js"></script>' if article else ""
     desc = esc(description or CONFIG["description"], quote=True)
     canonical = BASE + "/" + (page[:-10] if page.endswith("index.html") else page)
-    is_home = page == "index.html"
     footer_nav = f'<nav class="footer-links" aria-label="页脚导航">{link(page,"blog/","博客")}{link(page,"about/","关于")}{link(page,"feed.xml","RSS")}</nav>'
-    footer_embed = '<div class="footer-widget"><iframe src="https://codexreset.vercel.app/zh/embed/codex" title="Codex 重置时间" width="320" height="220" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>' if is_home else ""
+    footer_embed = '<div class="footer-widget"><iframe src="https://codexreset.vercel.app/zh/embed/codex" title="Codex 重置时间" width="320" height="220" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>'
     return f'''<!doctype html><html lang="zh-CN"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{desc}">
 <title>{esc(title)} · MonkeyDream</title><link rel="canonical" href="{esc(canonical,quote=True)}">
@@ -82,7 +81,7 @@ def layout(page, title, body, active="", article=False, description=None):
 <link rel="alternate" type="application/rss+xml" title="MonkeyDream" href="{esc(relative(page,'feed.xml'),quote=True)}">
 <script defer src="{asset('js/site.js')}"></script>{math}</head><body><a class="skip-link" href="#main-content">跳到正文</a>
 <header class="site-header"><div class="shell nav"><a class="brand" href="{esc(relative(page,'index.html'),quote=True)}"><img src="{asset('logos/logo-wordmark.svg')}" width="224" height="42" alt="MonkeyDream"></a><button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button><nav id="main-nav" class="nav-links" aria-label="主导航">{nav}</nav></div></header>
-<main id="main-content" tabindex="-1">{body}</main><footer class="site-footer{' home-footer' if is_home else ''}"><div class="shell footer-inner"><div class="footer-brand"><a href="{esc(relative(page,'index.html'),quote=True)}"><img src="{asset('logos/logo-wordmark.svg')}" width="186" height="35" alt="MonkeyDream"></a><p>记录学习、研究和生活。<br>保持好奇，慢慢记录。</p><small>© {date.today().year} MonkeyDream</small></div><div class="footer-directory"><strong>再逛一会儿</strong>{footer_nav}{link(page,'blog/learning/','学习路线')}{link(page,'blog/resources/','文献与数据资源')}</div>{footer_embed}</div></footer><button type="button" class="back-top" aria-label="返回顶部" hidden>↑</button></body></html>'''
+<main id="main-content" tabindex="-1">{body}</main><footer class="site-footer"><div class="shell footer-inner"><div class="footer-brand"><a href="{esc(relative(page,'index.html'),quote=True)}"><img src="{asset('logos/logo-wordmark.svg')}" width="186" height="35" alt="MonkeyDream"></a><p>记录学习、研究和生活。<br>保持好奇，慢慢记录。</p><small>© {date.today().year} MonkeyDream</small></div><div class="footer-directory"><strong>再逛一会儿</strong>{footer_nav}{link(page,'blog/learning/','学习路线')}{link(page,'blog/resources/','文献与数据资源')}</div>{footer_embed}</div></footer><button type="button" class="back-top" aria-label="返回顶部" hidden>↑</button></body></html>'''
 
 
 def write(page, text):
