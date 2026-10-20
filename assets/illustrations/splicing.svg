@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+<rect width="720" height="360" fill="#e3ebdb"/><circle cx="623" cy="52" r="160" fill="#d3dfc8"/>
+<g fill="none" stroke="#93ad93" stroke-width="2"><path d="M65 130H490M65 232H490"/><path d="M148 130Q260 27 374 130M148 232Q260 126 374 232"/><path d="M148 130Q312 -35 470 130" stroke-dasharray="5 7"/></g>
+<g fill="#2c6757"><rect x="68" y="112" width="80" height="36" rx="5"/><rect x="374" y="112" width="94" height="36" rx="5"/><rect x="68" y="214" width="80" height="36" rx="5"/><rect x="374" y="214" width="94" height="36" rx="5"/></g><rect x="237" y="112" width="62" height="36" rx="5" fill="#c88d53"/>
+<g font-family="Segoe UI,Microsoft YaHei,sans-serif"><text x="538" y="186" font-size="52" fill="#264f40">PSI</text><text x="68" y="305" font-size="19" fill="#577261">SUPPA2 / alternative splicing</text><text x="537" y="216" font-size="15" fill="#577261">included / total</text></g>
+</svg>

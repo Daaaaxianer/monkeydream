@@ -82,7 +82,7 @@ def layout(page, title, body, active="", article=False, description=None):
 <link rel="alternate" type="application/rss+xml" title="MonkeyDream" href="{esc(relative(page,'feed.xml'),quote=True)}">
 <script defer src="{asset('js/site.js')}"></script>{math}</head><body><a class="skip-link" href="#main-content">跳到正文</a>
 <header class="site-header"><div class="shell nav"><a class="brand" href="{esc(relative(page,'index.html'),quote=True)}"><img src="{asset('logos/logo-wordmark.svg')}" width="224" height="42" alt="MonkeyDream"></a><button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button><nav id="main-nav" class="nav-links" aria-label="主导航">{nav}</nav></div></header>
-<main id="main-content" tabindex="-1">{body}</main><footer class="site-footer{' home-footer' if is_home else ''}"><div class="shell footer-inner"><div><a href="{esc(relative(page,'index.html'),quote=True)}"><img src="{asset('logos/logo-wordmark.svg')}" width="186" height="35" alt="MonkeyDream"></a><p>© {date.today().year} MonkeyDream · 保持好奇，慢慢记录。</p>{footer_nav if is_home else ''}</div>{'' if is_home else footer_nav}{footer_embed}</div></footer><button type="button" class="back-top" aria-label="返回顶部" hidden>↑</button></body></html>'''
+<main id="main-content" tabindex="-1">{body}</main><footer class="site-footer{' home-footer' if is_home else ''}"><div class="shell footer-inner"><div class="footer-brand"><a href="{esc(relative(page,'index.html'),quote=True)}"><img src="{asset('logos/logo-wordmark.svg')}" width="186" height="35" alt="MonkeyDream"></a><p>记录学习、研究和生活。<br>保持好奇，慢慢记录。</p><small>© {date.today().year} MonkeyDream</small></div><div class="footer-directory"><strong>再逛一会儿</strong>{footer_nav}{link(page,'blog/learning/','学习路线')}{link(page,'blog/resources/','文献与数据资源')}</div>{footer_embed}</div></footer><button type="button" class="back-top" aria-label="返回顶部" hidden>↑</button></body></html>'''
 
 
 def write(page, text):
@@ -94,6 +94,24 @@ def write(page, text):
 def post_row(page, post):
     category = link(page, "blog/category/" + quote(post["category_slug"]) + "/", post["category"]) if post.get("category_slug") else ""
     return f'<article class="post-row"><div class="post-date"><time datetime="{post["date"]}">{post["date"].replace("-", ".")}</time>{category}</div><div class="post-content"><h2>{link(page,post["url"],post["title"])}</h2><p>{esc(post.get("summary", ""))}</p>{link(page,post["url"],"阅读全文","read-link")}</div></article>'
+
+
+def homepage(posts):
+    page = "index.html"
+    covers = {"suppa2-psi-biology-statistics": "splicing.svg", "rag-lesson-01-how-rag-works": "retrieval.svg"}
+    featured = ""
+    for post in posts[:2]:
+        cover = covers.get(post["slug"], "notebook.svg")
+        featured += f'<article class="feature-post"><a class="feature-cover" href="{relative(page,post["url"])}" aria-label="{esc(post["title"],quote=True)}"><img src="assets/illustrations/{cover}" width="720" height="360" alt="" loading="lazy"></a><div class="feature-copy"><div class="feature-meta"><span>{esc(post.get("category","学习笔记"))}</span><time datetime="{post["date"]}">{post["date"].replace("-", ".")}</time></div><h3>{link(page,post["url"],post["title"])}</h3><p>{esc(post.get("summary",""))}</p>{link(page,post["url"],"阅读全文","read-link")}</div></article>'
+    remaining = ''.join(post_row(page,post) for post in posts[2:6])
+    tools = json.loads((ROOT/"content/tools.json").read_text(encoding="utf-8"))
+    projects = ''.join(f'<article class="home-tool"><span class="tool-symbol" aria-hidden="true">{symbol}</span><div><h3>{link(page,"tools/"+tool["slug"]+"/",tool["name"])}</h3><p>{esc(tool["summary"])}</p></div></article>' for tool,symbol in zip(tools,["◷","⌘"]))
+    return f'''<div class="shell home">
+<header class="hero"><div class="hero-copy"><p class="hero-intro">你好，这里是 MonkeyDream</p><h1>保持好奇，<br>慢慢记录。</h1><p class="hero-description">从生物信息学到公共卫生，<br>把学到的方法、遇到的问题，写下来。</p><div class="hero-actions">{link(page,'blog/','开始阅读','button hero-primary')}{link(page,'about/','关于本站','hero-secondary')}</div></div><div class="hero-art"><img class="hero-notebook" src="assets/illustrations/notebook.svg" width="520" height="400" alt="摊开的研究手记，记录着数据曲线、DNA 与待探索的问题"><img class="hero-monkey" src="assets/logos/logo.svg" width="94" height="94" alt="眨眼的小猴"></div></header>
+<section class="home-section" aria-labelledby="latest-title"><div class="section-heading"><div><h2 id="latest-title">最近写下的</h2><p>沿着问题，留下一点记录。</p></div>{link(page,'blog/','全部文章','text-link')}</div><div class="feature-grid">{featured}</div></section>
+<section class="explore" aria-labelledby="explore-title"><div class="explore-intro"><h2 id="explore-title">循着兴趣<br>继续探索</h2><p>笔记之外，也整理一些<br>可以接着学、动手做的内容。</p></div><div class="explore-links"><a href="blog/learning/"><span class="explore-icon" aria-hidden="true">▤</span><div><h3>学习路线</h3><p>24 周流行病学学习计划，按周查找任务与记录。</p></div><span aria-hidden="true">↗</span></a><a href="blog/resources/"><span class="explore-icon" aria-hidden="true">⌕</span><div><h3>文献与数据</h3><p>教材、文献和公开数据入口，集中放在这里。</p></div><span aria-hidden="true">↗</span></a><a href="tools/"><span class="explore-icon" aria-hidden="true">⌘</span><div><h3>工具与项目</h3><p>汇报计时、生信流程，以及实践中用到的小工具。</p></div><span aria-hidden="true">↗</span></a></div></section>
+<div class="home-bottom"><section aria-labelledby="earlier-title"><div class="section-heading"><h2 id="earlier-title">之前的记录</h2>{link(page,'blog/archive/','文章归档')}</div>{remaining or '<p class="empty">更多记录正在路上。</p>'}</section><aside class="home-note"><img src="assets/logos/logo-stacked.svg" width="160" height="160" alt="仰望月亮的 MonkeyDream 小猴" loading="lazy"><h2>关于这里</h2><p>学习总结、文献阅读、方法实践，也留一点空间给生活与奇思妙想。</p>{link(page,'about/','认识一下')}</aside></div>
+<section class="home-section" aria-labelledby="projects-title"><div class="section-heading"><h2 id="projects-title">动手做的小东西</h2>{link(page,'tools/','查看工具')}</div><div class="home-tools">{projects}</div></section></div>'''
 
 
 def article_page(post, posts):
@@ -134,7 +152,7 @@ def build():
     (OUT/"assets/css/syntax.css").write_text(HtmlFormatter(style="friendly").get_style_defs(".highlight"),encoding="utf-8")
     posts = load_posts()
     page = "index.html"
-    body = f'<div class="shell journal"><header class="intro"><div class="intro-copy"><p class="intro-greeting">你好，我是 MonkeyDream。</p><h1>保持好奇，<br>慢慢记录。</h1><p class="intro-description">{esc(CONFIG["description"])}</p>{link(page,"about/","认识一下","intro-link")}</div><img class="intro-monkey" src="{relative(page,"assets/logos/logo.svg")}" width="240" height="240" alt="微笑眨眼的 MonkeyDream 小猴"></header><section aria-labelledby="latest-title"><div class="section-heading"><h2 id="latest-title">最近写下的</h2>{link(page,"blog/","查看全部文章","text-link")}</div>{"".join(post_row(page,p) for p in posts[:5]) or "<p class=empty>还没有公开文章。</p>"}</section></div>'
+    body = homepage(posts)
     write(page,layout(page,"个人博客",body,"home"))
     blog_page(posts)
     for post in posts:
@@ -152,8 +170,7 @@ def build():
     body='<section class="shell page"><h1>文章归档</h1>'+"".join(f'<h2 class="archive-year">{y}</h2>'+"".join(post_row(page,p) for p in posts if p["date"].startswith(y)) for y in years)+"</section>"
     write(page,layout(page,"文章归档",body,"archive"))
     page="about/index.html"
-    body='<section class="shell page article-body"><h1>关于我</h1><p>你好，我是 MonkeyDream。从生物信息学走向公共卫生与预防医学、流行病与卫生统计学，研究兴趣包括疾病预测与肠道微生物组。</p><p>这里记录学习总结、文献阅读、方法实践，也分享生活与日常思考。学习记录是博客的一部分，慢慢积累，不急着给每一步下结论。</p>'+link(page,"blog/","阅读博客 →")+"</section>"
-    body=body.replace('<h1>关于我</h1>', '<img class="about-logo" src="'+relative(page,'assets/logos/logo-stacked.svg')+'" width="240" alt="MonkeyDream 仰望月亮的小猴"><h1>关于我</h1>')
+    body=f'<section class="shell page about-page"><div class="about-profile"><div><h1>关于我</h1><p class="about-greeting">你好，我是 MonkeyDream。</p><p>从生物信息学走向公共卫生与预防医学、流行病与卫生统计学，研究兴趣包括疾病预测与肠道微生物组。</p><p>这里记录学习总结、文献阅读、方法实践，也分享生活与日常思考。慢慢积累，不急着给每一步下结论。</p>{link(page,"blog/","阅读博客","button primary")}</div><img src="{relative(page,"assets/logos/logo-stacked.svg")}" width="260" height="260" alt="MonkeyDream 仰望月亮的小猴"></div><div class="about-paths"><section><h2>把问题写下来</h2><p>梳理概念、核对来源，也记录方法适用的条件。</p>{link(page,"blog/","查看学习笔记")}</section><section><h2>把方法用起来</h2><p>整理学习路线与实践工具，给下一次尝试留个入口。</p>{link(page,"tools/","浏览工具与项目")}</section></div></section>'
     write(page,layout(page,"关于我",body,"about"))
     tools=json.loads((ROOT/"content/tools.json").read_text(encoding="utf-8"))
     page="tools/index.html"
