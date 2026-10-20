@@ -29,6 +29,7 @@ main{min-height:65vh}main:focus{outline:none}
 .post-row p{font-size:14px;line-height:1.95;color:var(--muted);margin:0 0 12px}.read-link{font-size:12px}
 .site-footer{margin-top:80px;padding:32px 0 38px;border-top:1px solid var(--border)}
 .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}.footer-inner img{display:block;width:172px}.footer-inner p{font-size:12px;color:var(--muted);margin:10px 0 0}.footer-links{display:flex;gap:26px;font-size:13px}
+.footer-widget{flex:0 1 320px;max-width:100%;min-width:0}.footer-widget iframe{display:block;width:320px;max-width:100%;height:200px;border:0;border-radius:8px}
 .page{padding-top:56px}.page>h1,.page-heading h1{font-family:var(--heading);font-size:36px;line-height:1.5;margin:0 0 16px}.page-lead{color:var(--muted);max-width:44em;font-size:15px}
 .blog-page{max-width:1000px}.blog-links{display:flex;gap:12px 26px;flex-wrap:wrap;margin:24px 0 32px;font-size:13px}.blog-links a{color:var(--ink);border-bottom:1px solid var(--border);padding-bottom:3px}
 .filters{margin:0 0 8px}.search-bar{display:flex;align-items:stretch;gap:10px}
@@ -82,7 +83,7 @@ main{min-height:65vh}main:focus{outline:none}
 .footer-inner{align-items:flex-start}.footer-links{gap:20px}.site-footer{margin-top:52px}.back-top{bottom:16px;right:16px}
 }
 @media(max-width:430px){
-.shell{padding-inline:20px}.brand img{width:170px}.nav{column-gap:12px}.menu-button{padding-inline:12px}.intro{position:relative;align-items:flex-start;padding:26px 22px}.intro-copy{position:relative;z-index:1}.intro-greeting{max-width:180px}.intro h1{font-size:32px;max-width:200px}.intro-monkey{position:absolute;width:84px;top:62px;right:13px}.intro-description{max-width:19em;padding-top:4px}.button.primary{padding-inline:19px}.footer-inner{flex-direction:column;gap:22px}
+.shell{padding-inline:20px}.brand img{width:170px}.nav{column-gap:12px}.menu-button{padding-inline:12px}.intro{position:relative;align-items:flex-start;padding:26px 22px}.intro-copy{position:relative;z-index:1}.intro-greeting{max-width:180px}.intro h1{font-size:32px;max-width:200px}.intro-monkey{position:absolute;width:84px;top:62px;right:13px}.intro-description{max-width:19em;padding-top:4px}.button.primary{padding-inline:19px}.footer-inner{flex-direction:column;gap:22px}.footer-widget{flex-basis:auto;width:100%}
 }
 @media(max-width:360px){.intro h1{font-size:28px}.intro-monkey{width:62px;top:66px;right:12px}.intro-greeting{font-size:11px}}
 @media print{
